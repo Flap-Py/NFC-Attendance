@@ -1,0 +1,74 @@
+<html>
+        {% load static %}
+        <head>
+            <title>NFC Attendance | New user</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+            <link rel="stylesheet" href="{% static "app/bootstrap/css/bootstrap.min.css" %}">
+            <link rel="stylesheet" href="{% static "app/font-awesome/css/font-awesome.min.css" %}">
+            <link rel="stylesheet" href="{% static "app/css/form-elements.css" %}">
+            <link rel="stylesheet" href="{% static "app/css/style.css" %}">
+            <link rel="shortcut icon" href="{% static "app/ico/favicon.png" %}">
+            <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{% static "app/ico/apple-touch-icon-144-precomposed.png" %}">
+            <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{% static "app/ico/apple-touch-icon-114-precomposed.png" %}">
+            <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{% static "app/ico/apple-touch-icon-72-precomposed.png" %}">
+            <link rel="apple-touch-icon-precomposed" href="{% static "app/ico/apple-touch-icon-57-precomposed.png" %}">
+        </head>
+        <body>
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">NFC Attandence</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="/dashboard">Admin Console</a>
+                        </li>
+                        <li class="active">
+                            <a href="/createuser">Create User</a>
+                        </li>
+                        <li>
+                            <a href="/addcourse">Add Course</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a>{{name}}</a>
+                        </li>
+                        <li>
+                            <a href="/logout"><span class="glyphicon glyphicon-log-in"></span> Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="top-content">
+                    
+                    <div class="inner-bg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-6 col-sm-offset-3 form-box">
+                                           <h1><b>Success!!! </b></h1>                              
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+        
+        
+                <!-- Javascript -->
+                <script src="{% static "app/js/jquery-1.11.1.min.js" %}"></script>
+                <script src="{% static "app/bootstrap/js/bootstrap.min.js" %}"></script>
+                <script src="{% static "app/js/jquery.backstretch.min.js" %}"></script>
+                <script src="{% static "app/js/retina-1.1.0.min.js" %}"></script>
+                <script src="{% static "app/js/scripts.js" %}"></script>
+                <!--[if lt IE 10]>
+                    <script src="{% static "app/assets/js/placeholder.js" %}"></script>
+                <![endif]-->
+        
+            </body>
+        
+        </html>

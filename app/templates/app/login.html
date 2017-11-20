@@ -1,0 +1,23 @@
+<html>
+    <head>
+        {% load static %}
+        <title>Welcome to NFC Attendance</title>
+        <link rel="stylesheet" href="{% static "app/css/login.css" %}">
+        <script src="{% static "app/js/login.js" %}"></script>
+    </head>
+    <body background="{% static "app/img/backgrounds/1.jpg" %}">
+        <h1 class="form-head">NFC Attendance</h1>
+        <div class="login-page">
+            <div class="form">
+                <form autocomplete="on" class="login-form" action="login" method="POST">
+                    <input type="text" name="username" id="username" placeholder="username" value="{{username}}" />
+                    {% csrf_token %}
+                    <input type="password" name="password" id="password" placeholder="Password" value="{{password}}" />
+                    <button>login</button>
+                    <p class="message" style="color: red">{{msg}}</p>
+                    <p class="message">Forgot Password? <a href="#">Reset Password</a></p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

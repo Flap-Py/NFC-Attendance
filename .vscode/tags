@@ -1,0 +1,95 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+0001_initial.py	../app/migrations/0001_initial.py	1;"	kind:file	line:1
+ALLOWED_HOSTS	../BTP/settings.py	/^ALLOWED_HOSTS = ['172.22.28.82', 'localhost']$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../BTP/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
+AUTH_USER_MODEL	../BTP/settings.py	/^AUTH_USER_MODEL = 'app.NFCUser'$/;"	kind:variable	line:122
+AppConfig	../app/apps.py	/^class AppConfig(AppConfig):$/;"	kind:class	line:7
+BASE_DIR	../BTP/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+Course	../app/models.py	/^class Course(models.Model):$/;"	kind:class	line:53
+DATABASES	../BTP/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
+DEBUG	../BTP/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+INSTALLED_APPS	../BTP/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../BTP/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:107
+LectureSlot	../app/models.py	/^class LectureSlot(models.Model):$/;"	kind:class	line:39
+MIDDLEWARE	../BTP/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
+Migration	../app/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	kind:class	line:12
+NFCUser	../app/models.py	/^class NFCUser(AbstractUser):$/;"	kind:class	line:11
+ROOT_URLCONF	../BTP/settings.py	/^ROOT_URLCONF = 'BTP.urls'$/;"	kind:variable	line:53
+SECRET_KEY	../BTP/settings.py	/^SECRET_KEY = '_rp6*%gyzg(bgnp&b!w()^2@d-n%h+(7+-z(k^#j7w^0)hh#p*'$/;"	kind:variable	line:23
+STATIC_URL	../BTP/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
+TEMPLATES	../BTP/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
+TIME_ZONE	../BTP/settings.py	/^TIME_ZONE = 'Asia\/Kolkata'$/;"	kind:variable	line:109
+USE_I18N	../BTP/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
+USE_L10N	../BTP/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
+USE_TZ	../BTP/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
+WSGI_APPLICATION	../BTP/settings.py	/^WSGI_APPLICATION = 'BTP.wsgi.application'$/;"	kind:variable	line:71
+__init__.py	../BTP/__init__.py	1;"	kind:file	line:1
+__init__.py	../app/__init__.py	1;"	kind:file	line:1
+__init__.py	../app/migrations/__init__.py	1;"	kind:file	line:1
+addCourse	../app/views.py	/^def addCourse(request):$/;"	kind:function	line:198
+addLecture	../app/views.py	/^def addLecture(request):$/;"	kind:function	line:132
+admin.py	../app/admin.py	1;"	kind:file	line:1
+application	../BTP/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../app/apps.py	1;"	kind:file	line:1
+branch	../app/models.py	/^    branch=models.CharField($/;"	kind:variable	line:32
+branch	../app/models.py	/^    branch=models.CharField($/;"	kind:variable	line:63
+choices	../app/models.py	/^        choices=(('1', '1'), ('2', '2'), ('3', '3'), ('4', '4'))$/;"	kind:variable	line:30
+choices	../app/models.py	/^        choices=(('1', '1'), ('2', '2'), ('3', '3'), ('4', '4'), ('5', 'Other'))$/;"	kind:variable	line:61
+choices	../app/models.py	/^        choices=(('CCE', 'CCE'), ('CSE', 'CSE'), ('ECE', 'ECE'), ('MME', 'MME'))$/;"	kind:variable	line:34
+choices	../app/models.py	/^        choices=(('CCE', 'CCE'), ('CSE', 'CSE'), ('ECE', 'ECE'), ('MME', 'MME'))$/;"	kind:variable	line:65
+clist	../app/models.py	/^    clist = JSONField()$/;"	kind:variable	line:36
+courseCode	../app/models.py	/^    courseCode = models.CharField(max_length=10)$/;"	kind:variable	line:51
+courseCode	../app/models.py	/^    courseCode = models.CharField(max_length=10)$/;"	kind:variable	line:67
+createUser	../app/views.py	/^def createUser(request):$/;"	kind:function	line:59
+dashboard	../app/views.py	/^def dashboard(request):$/;"	kind:function	line:212
+date	../app/models.py	/^    date = models.DateField()$/;"	kind:variable	line:48
+dependencies	../app/migrations/0001_initial.py	/^    dependencies = [$/;"	kind:variable	line:16
+fields	../app/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:23
+fields	../app/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:55
+fields	../app/migrations/0001_initial.py	/^            fields=[$/;"	kind:variable	line:66
+homepage	../app/views.py	/^def homepage(request):$/;"	kind:function	line:22
+initial	../app/migrations/0001_initial.py	/^    initial = True$/;"	kind:variable	line:14
+lastClass	../app/models.py	/^    lastClass = JSONField()$/;"	kind:variable	line:37
+loginUser	../app/views.py	/^def loginUser(request):$/;"	kind:function	line:35
+logoutUser	../app/views.py	/^def logoutUser(request):$/;"	kind:function	line:261
+lt	../app/models.py	/^    lt = models.CharField(max_length=4, choices=ltnum)$/;"	kind:variable	line:50
+ltnum	../app/models.py	/^    ltnum = ((1, 1), (2, 2), (3, 3), (4, 4))$/;"	kind:variable	line:47
+manage.py	../manage.py	1;"	kind:file	line:1
+managers	../app/migrations/0001_initial.py	/^            managers=[$/;"	kind:variable	line:49
+markAttendance	../app/views.py	/^def markAttendance(request):$/;"	kind:function	line:163
+max_length	../app/models.py	/^        max_length=1,$/;"	kind:variable	line:29
+max_length	../app/models.py	/^        max_length=1,$/;"	kind:variable	line:60
+max_length	../app/models.py	/^        max_length=3,$/;"	kind:variable	line:33
+max_length	../app/models.py	/^        max_length=3,$/;"	kind:variable	line:64
+models.py	../app/models.py	1;"	kind:file	line:1
+name	../app/apps.py	/^    name = 'app'$/;"	kind:variable	line:8
+name	../app/migrations/0001_initial.py	/^            name='Course',$/;"	kind:variable	line:54
+name	../app/migrations/0001_initial.py	/^            name='LectureSlot',$/;"	kind:variable	line:65
+name	../app/migrations/0001_initial.py	/^            name='NFCUser',$/;"	kind:variable	line:22
+name	../app/models.py	/^    name = models.CharField(max_length=20)$/;"	kind:variable	line:22
+new	../app/views.py	/^def new(request):$/;"	kind:function	line:18
+numClasses	../app/models.py	/^    numClasses = models.IntegerField(default=0)$/;"	kind:variable	line:68
+operations	../app/migrations/0001_initial.py	/^    operations = [$/;"	kind:variable	line:20
+options	../app/migrations/0001_initial.py	/^            options={$/;"	kind:variable	line:44
+resetdb	../app/views.py	/^def resetdb(request):$/;"	kind:function	line:265
+roundTime	../app/views.py	/^def roundTime(time):$/;"	kind:function	line:151
+saveuid	../app/views.py	/^def saveuid(request):$/;"	kind:function	line:294
+settings.py	../BTP/settings.py	1;"	kind:file	line:1
+studentList	../app/models.py	/^    studentList = JSONField()/;"	kind:variable	line:69
+tests.py	../app/tests.py	1;"	kind:file	line:1
+time	../app/models.py	/^    time = models.TimeField()$/;"	kind:variable	line:49
+type	../app/models.py	/^    type = models.CharField(max_length=10, choices=userTypes)$/;"	kind:variable	line:27
+urlpatterns	../BTP/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	../app/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urls.py	../BTP/urls.py	1;"	kind:file	line:1
+urls.py	../app/urls.py	1;"	kind:file	line:1
+userTypes	../app/models.py	/^    userTypes = ($/;"	kind:variable	line:23
+views.py	../app/views.py	1;"	kind:file	line:1
+wsgi.py	../BTP/wsgi.py	1;"	kind:file	line:1
+year	../app/models.py	/^    year = models.CharField($/;"	kind:variable	line:28
+year	../app/models.py	/^    year = models.CharField($/;"	kind:variable	line:59

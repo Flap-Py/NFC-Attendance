@@ -1,0 +1,49 @@
+<html>
+        <head>
+            <title>NFC Attendance | Dashboard</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        </head>
+        <body>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/dashboard">NFC Attandence</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="/dashboard">Admin Console</a>
+                        </li>
+                        <li>
+                            <a href="/createuser">Create User</a>
+                        </li>
+                        <li>
+                            <a href="/addcourse">Add Course</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a>{{name}}</a>
+                        </li>
+                        <li>
+                            <a href="/logout"><span class="glyphicon glyphicon-log-in"></span> Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container" style="margin-left: 30">
+                <h2 style="color:rgb(216, 90, 44)">Stats</h2>
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-4"><h3>Total Students Registered</h3></div>
+                    <div class="col-md-3"><h3>{{totalStudents}}</h3></div>
+                </div>
+                <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-4"><h3>Total Faculties Registered</h3></div>
+                        <div class="col-md-3"><h3>{{totalFaculty}}</h3></div>
+                </div>
+            </div>
+        </body>
+    </html>

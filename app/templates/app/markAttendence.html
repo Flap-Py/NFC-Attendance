@@ -1,0 +1,14 @@
+<html>
+        <head>
+            <title>Mark attendance</title>
+        </head>
+        <body>
+            <form autocomplete="on" method="POST">
+                <input type="text" name="username" id="username" placeholder="Username" value="{{username}}" />
+                <input type="text" name="lt" id="lt" placeholder="LT" value="{{lt}}" />
+                {% csrf_token %}
+                <br>{{msg}}<br>
+                <button>Mark</button>
+            </form>
+        </body>
+    </html>
